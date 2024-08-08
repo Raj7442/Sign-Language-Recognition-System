@@ -35,3 +35,29 @@ Make sure you have the following installed:
 
 - [Python 3.x](https://www.python.org/)
 - [pip](https://pip.pypa.io/en/stable/)
+
+- ### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/sign-language-recognition.git
+   cd sign-language-recognition
+   pip install -r requirements.txt
+sign-language-recognition/
+│
+├── data/                  # Training data and sample datasets
+├── models/                # Saved machine learning models
+├── src/
+│   ├── capture.py         # Script for capturing and processing video input
+│   ├── train.py           # Script for training the machine learning model
+│   ├── recognize.py       # Script for recognizing gestures
+│   ├── utils.py           # Utility functions
+│   └── main.py            # Main application script
+│
+├── requirements.txt       # Required Python packages
+└── README.md              # Project documentation
+
+
+This `README.md` provides an overview of the project, including its purpose, technologies used, and instructions for getting started. You can further customize it based on specific needs or additional details about the project.
+
